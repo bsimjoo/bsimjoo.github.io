@@ -30,7 +30,7 @@ function lang_select(lang = null) {
     }
 }
 
-window.onload = function() {
+/*window.onload = function() {
     const userPrefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
 
     hide('#no-script');
@@ -41,10 +41,4 @@ window.onload = function() {
 
     if (window.location.hash)
         lang_select();
-
-    /*const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
-    const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
-    let sy = String((vh / 720) * 100);
-    let sx = String((vw / 1280) * 100);
-    document.getElementById("videobg").style.transform = `translate(-50%, -50%) scale(${sx}%,${sy}%)`;*/
-}
+}*/
