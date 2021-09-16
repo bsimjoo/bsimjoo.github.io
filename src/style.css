@@ -206,6 +206,11 @@ i.fas {
     column-gap: 20%;
 }
 
+.box .content {
+    max-width: 70%;
+    margin: 5% auto;
+}
+
 .box.grid>div {
     display: flex;
     padding: 5% 2%;
