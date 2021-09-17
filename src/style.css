@@ -144,7 +144,6 @@ i.fas {
 
 .big-logo {
     transform: translateY(-50%);
-    position: relative;
     margin: 50vh 0 20px;
     width: 100%;
 }
